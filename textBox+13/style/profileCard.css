@@ -1,0 +1,64 @@
+.profileCard{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    border-style:solid;
+    border-width: 2px;
+    padding-bottom: 45px;
+    border-color:red;
+    width: 500px;
+    align-items: center;
+    column-gap: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profileCard:hover{
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profileCard
+.description{
+    font-size: 19px;
+}
+
+.imageSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imageSection
+.img{
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+    background-color:brown;
+}
+
+.buttonsSection{
+    position: absolute;
+    bottom: 25px;
+    left: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding:2px 12px;
+}
+
+.buttonItem{
+    padding: 8px;
+    border-radius: 35px;
+    background-color: blue;
+    color: wheat;
+    text-shadow: 2px 2px 8px #ff000000;
+}
+
+.buttonItem:hover{
+    text-shadow: 8px 8px 16px #FF0000;
+}
+
+a{
+    text-decoration: none;
+}
