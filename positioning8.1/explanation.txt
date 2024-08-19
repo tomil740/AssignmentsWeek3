@@ -1,0 +1,10 @@
+The questions:
+Why?
+1. explain in your own words what is the problem.
+2. fix the code using the positions we’ve learned.
+
+1)
+The “position: absolute" attribute works relative to the closest parent (container object) that isn't position:absolute (the default...). In the example above, the closest one will be the full page; because of that, the result isn’t within the other parent element, which is, by default, an absolute position.
+
+2)
+Fix the code: To fix the issue, we can apply various solutions, but the most sensible one is to define the position of the father as relative. To fix the issue, we can apply various solutions, but the most sensible one is to define the position of the father as a relative.
