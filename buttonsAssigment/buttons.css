@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(5, 5, 81, 0.525);
+}
+
+.sectionList{
+    text-align: center;
+}
+.buttonSection button{
+    margin: 18px 48px;
+    color: white;
+    border-width:0;
+}
+
+.buttonSection button:nth-child(2n-1){
+    font-size: 18px;
+    padding: 16px;
+}
+.buttonSection button:nth-child(2n){
+    padding: 8px;
+}
+
+.buttonSection 
+#button1:hover{
+    opacity: 85%;
+}
+#button2:hover{
+    opacity: 85%;
+}
+#button3:hover{
+    opacity: 85%;
+}
+#button4:hover{
+    opacity: 85%;
+}
+#button5:hover{
+    background-color: red;
+}
+#button6:hover{
+    background-color: palevioletred;
+}
+#button7:hover{
+    background-color: yellow;
+}
+#button8:hover{
+    background-color: greenyellow;
+}
+
+#button1{
+    background-color: rgb(90, 90, 232);
+}
+#button2{
+    background-color: rgb(169, 169, 11);
+}
+#button3{
+    background-color: green;
+    border-radius:35px;
+}
+#button4{
+    background-color: rgb(198, 10, 10);
+    border-radius:35px;
+}
+#button5{
+    background: none;
+    border-style:solid;
+    border-width:1.5px;
+    border-color:red ;
+}
+#button6{
+    background: none;
+    border-style:solid;
+    border-width:1.5px;
+    border-color:palevioletred ;
+}
+#button7{
+    background: none;
+    border-style:solid;
+    border-width:1.5px;
+    border-color:yellow;
+    border-radius: 35px;
+}
+#button8{
+    background: none;
+    border-style:solid;
+    border-width:1.5px;
+    border-color:greenyellow;
+    border-radius: 35px;
+}
