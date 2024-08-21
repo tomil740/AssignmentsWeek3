@@ -89,7 +89,6 @@ strong{
     background-color: red;
 }
 
-
 .pronsLst
 .checkIcon{
     width: 1.5rem;
@@ -125,4 +124,14 @@ strong{
 #prNa3{
     background: linear-gradient(to right ,rgb(239, 186, 221),rgb(225, 138, 51));
     color:beige;
+}
+
+#Bf1:hover{
+    background-color: rgb(7, 29, 70);
+    color: white;
+}
+
+#Bf2:hover{
+    background-color: white;
+    color: black;
 }
