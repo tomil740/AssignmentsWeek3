@@ -1,0 +1,128 @@
+.priceCatlog{
+    width: 45%;
+    background-color: aliceblue;
+    padding: 4.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    min-width: 70rem;
+
+}
+
+.priceItem{
+    width: 30%;
+    padding: 0.4rem;
+    margin: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 20rem;
+}
+
+.priceItem
+.programName{
+    margin: 0.8rem 1.4rem;
+    margin-bottom: 4.2rem;
+    width: 90%;
+    padding: 0.6rem 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: red;
+}
+
+.priceItem
+.ThePrice{
+    font-size: 4.8rem;
+    position: relative;
+}
+
+.priceItem
+.icon{
+    position: absolute;
+    left: 23%;
+    font-size: 2.6rem;
+}
+
+#icon1{
+    left: 33%;
+}
+
+.priceItem
+h2 
+strong{
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.priceItem
+.header{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.priceItem
+.subHeader{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 1.2rem;
+}
+
+.priceItem
+.buttonFrame{
+    display: flex;
+    justify-content: center;
+}
+
+.priceItem
+.actionBut{
+    margin: 2.1rem 0;
+    width: 90%;
+    padding: 0.6rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-width:0.09rem;
+    background-color: red;
+}
+
+
+.pronsLst
+.checkIcon{
+    width: 1.5rem;
+    object-fit: scale-down;
+}
+.priceItem
+.listItem{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 1.03rem;
+    margin: 0.3rem;
+}
+
+#prNa1{
+    background-color: rgb(246, 244, 244); 
+}
+
+#Bf1{
+    background-color: white;
+}
+
+#Bf2{
+    background-color: rgb(7, 29, 70);
+    color: aliceblue;
+}
+
+#prNa2{
+    background: linear-gradient(to right ,rgb(186, 239, 236),rgb(161, 51, 225));
+    color:beige;
+}
+
+#prNa3{
+    background: linear-gradient(to right ,rgb(239, 186, 221),rgb(225, 138, 51));
+    color:beige;
+}

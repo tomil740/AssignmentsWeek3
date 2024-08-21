@@ -1,0 +1,18 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(36, 17, 88);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8.8rem;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    all: unset;
+}
