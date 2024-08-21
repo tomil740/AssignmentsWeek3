@@ -1,7 +1,9 @@
 .boxSection{
     display: flex;
-    justify-content: right;
-    
+    flex-direction: column;
+    /*the auto height is fit content... , only work when applying height*/
+    height: 600px;
+    justify-content:space-between;
 }
 .boxItem{
     width: 180px;
