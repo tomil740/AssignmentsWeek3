@@ -1,0 +1,46 @@
+ul,li,a,h3{
+    all: unset;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    border-style:solid;
+    background-color: rgb(218, 217, 217);
+    padding: 8px;
+}
+
+.navBar
+.header{
+    font-size: 1.6rem;
+}
+
+.navBar
+.menuItem{
+    margin: 1em;
+}
+
+@media screen and (min-width: 600px) {
+    .navBar{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-style:solid;
+        background-color: rgb(218, 217, 217);
+        padding: 0 8px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .navBar{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .menuSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
