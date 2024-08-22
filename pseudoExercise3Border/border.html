@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            height: 800px;
+        }
+        main{
+            border:solid 3px red;
+        }
+        #mainItem{
+            position: relative;
+            z-index: 10;
+            font-size: 42px;
+            padding: 28px;
+            color: yellow;
+            
+        }
+        #mainItem::after{
+            content: "";
+            background-color: black;   
+            height: 120px;
+            width: 500px;
+            position: absolute;
+            top: 25%;
+            left: -10%;
+            z-index: -50;
+        }
+        #mainItem::before{
+            content: "";
+            background-color: black;   
+            height: 500px;
+            width: 230px;
+            position: absolute;
+            top: -10%;
+            left: 20%;
+            z-index: -50;
+        }
+       
+    </style>
+</head>
+<body>
+    <main>
+        <article id="mainItem">
+            <h1 style="z-index: 2;">Cool Border</h1>
+        </article>
+    </main>
+    
+</body>
+</html>
