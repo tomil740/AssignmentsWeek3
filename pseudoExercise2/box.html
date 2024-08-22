@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mainBox{
+            position: relative;
+            width: 50rem;
+            height: 50rem;
+            background-color: purple;
+        }
+        #mainBox::after{
+            position: absolute;
+            top: 0;
+            right: 0;
+            content: "";
+            width: 25rem;
+            height: 50rem;
+            background-color: red;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article id="mainBox">
+        </article>
+    </main>
+</body>
+</html>
