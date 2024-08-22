@@ -1,0 +1,33 @@
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    text-align: center;
+}
+.special{
+    position: relative;
+    color: rgb(141, 141, 0);
+    font-size: 24px;
+}
+.special::after{
+    position: absolute;
+    top: -50px;
+    left: -58px;
+    scale: 0;
+    content: "tools tips";
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 16px;
+    border-radius: 35px;
+    background-color: antiquewhite;
+
+}
+
+.special:hover::after{
+    scale: 1;
+
+}
